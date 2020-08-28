@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YTSG</title>
+	<script src = "popup.js"></script>
+	<style>
+		body {
+			text-align: center;
+			width: 200px;
+			height: 180px;
+		}
+
+		#slider {
+			width: 80%;
+		}
+	</style>
+</head>
+<body>
+	<h3>YouTube Summary Generator</h3><hr><br>
+
+	How many sentences you want in summary?<br>
+	1 <input id = "slider" type = "range" min = "1" max = "40" value = "15"> 40<br><br><br>
+
+	<button id = "getSummaryButton">Generate Summary</button><br><br>
+	<div id = "message"></div>
+</body>
+</html>

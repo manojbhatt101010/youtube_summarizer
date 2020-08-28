@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "Youtube Summary Generator",
+	"version": "1.0",
+	"description": "A simple chrome extension that generates summary of youtube videos",
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": ["tabs", "activeTab"]
+}
